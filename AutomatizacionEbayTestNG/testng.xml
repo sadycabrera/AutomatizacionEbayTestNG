@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="articulo" value="shoes" />
+		<parameter name="brand" value="PUMA" />
+		<parameter name="size" value="10" />
+		<parameter name="cantidadProductos" value="5" />
+		<parameter name="tipoOrdenamiento" value="DE MENOR A MAYOR PRECIO" />
+		<parameter name="cantidadImprimir" value="5" />
+
+		<classes>
+			<class name="test.TestBusquedaProducto" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

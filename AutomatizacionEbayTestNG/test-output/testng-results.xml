@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33101" started-at="2019-10-07T00:34:47 COT" finished-at="2019-10-07T00:35:21 COT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33101" started-at="2019-10-07T00:34:47 COT" finished-at="2019-10-07T00:35:21 COT">
+      <class name="test.TestBusquedaProducto">
+        <test-method status="PASS" signature="enter_to_Ebay_usando_la_URL()[pri:0, instance:test.TestBusquedaProducto@9660f4e]" name="enter_to_Ebay_usando_la_URL" is-config="true" duration-ms="8943" started-at="2019-10-07T00:34:47 COT" finished-at="2019-10-07T00:34:56 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_to_Ebay_usando_la_URL -->
+        <test-method status="PASS" signature="search_for(java.lang.String)[pri:1, instance:test.TestBusquedaProducto@9660f4e]" name="search_for" duration-ms="10622" started-at="2019-10-07T00:34:56 COT" finished-at="2019-10-07T00:35:07 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_for -->
+        <test-method status="PASS" signature="select_brand(java.lang.String)[pri:2, instance:test.TestBusquedaProducto@9660f4e]" name="select_brand" duration-ms="777" started-at="2019-10-07T00:35:07 COT" finished-at="2019-10-07T00:35:08 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PUMA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_brand -->
+        <test-method status="PASS" signature="select_size(java.lang.String)[pri:3, instance:test.TestBusquedaProducto@9660f4e]" name="select_size" duration-ms="3941" started-at="2019-10-07T00:35:08 COT" finished-at="2019-10-07T00:35:12 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_size -->
+        <test-method status="PASS" signature="print_the_number_of_results()[pri:4, instance:test.TestBusquedaProducto@9660f4e]" name="print_the_number_of_results" duration-ms="3103" started-at="2019-10-07T00:35:12 COT" finished-at="2019-10-07T00:35:15 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_the_number_of_results -->
+        <test-method status="PASS" signature="order_by_price(java.lang.String)[pri:5, instance:test.TestBusquedaProducto@9660f4e]" name="order_by_price" duration-ms="1430" started-at="2019-10-07T00:35:15 COT" finished-at="2019-10-07T00:35:16 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DE MENOR A MAYOR PRECIO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_by_price -->
+        <test-method status="PASS" signature="assert_the_order_taking_the_first_results(int)[pri:6, instance:test.TestBusquedaProducto@9660f4e]" name="assert_the_order_taking_the_first_results" duration-ms="3469" started-at="2019-10-07T00:35:16 COT" finished-at="2019-10-07T00:35:20 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assert_the_order_taking_the_first_results -->
+        <test-method status="PASS" signature="the_first_products_with_their_prices_and_print_them_in_console(int)[pri:7, instance:test.TestBusquedaProducto@9660f4e]" name="the_first_products_with_their_prices_and_print_them_in_console" duration-ms="1" started-at="2019-10-07T00:35:20 COT" finished-at="2019-10-07T00:35:20 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_first_products_with_their_prices_and_print_them_in_console -->
+        <test-method status="PASS" signature="order_and_print_the_products_by_name_ascendant()[pri:8, instance:test.TestBusquedaProducto@9660f4e]" name="order_and_print_the_products_by_name_ascendant" duration-ms="1" started-at="2019-10-07T00:35:20 COT" finished-at="2019-10-07T00:35:20 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_and_print_the_products_by_name_ascendant -->
+        <test-method status="PASS" signature="order_and_print_the_products_by_price_in_descendant_mode()[pri:9, instance:test.TestBusquedaProducto@9660f4e]" name="order_and_print_the_products_by_price_in_descendant_mode" duration-ms="0" started-at="2019-10-07T00:35:20 COT" finished-at="2019-10-07T00:35:20 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_and_print_the_products_by_price_in_descendant_mode -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestBusquedaProducto@9660f4e]" name="close" is-config="true" duration-ms="764" started-at="2019-10-07T00:35:20 COT" finished-at="2019-10-07T00:35:21 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TestBusquedaProducto -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

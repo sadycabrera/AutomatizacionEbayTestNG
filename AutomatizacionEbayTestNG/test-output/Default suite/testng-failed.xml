@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.TestBusquedaProducto">
+        <methods>
+          <include name="assert_the_order_taking_the_first_results"/>
+          <include name="order_and_print_the_products_by_price_in_descendant_mode"/>
+          <include name="select_brand"/>
+          <include name="select_size"/>
+          <include name="the_first_products_with_their_prices_and_print_them_in_console"/>
+          <include name="order_by_price"/>
+          <include name="enter_to_Ebay_usando_la_URL"/>
+          <include name="print_the_number_of_results"/>
+          <include name="search_for"/>
+          <include name="order_and_print_the_products_by_name_ascendant"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.TestBusquedaProducto -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

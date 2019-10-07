@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="size" value="10"/>
+    <parameter name="cantidadProductos" value="5"/>
+    <parameter name="tipoOrdenamiento" value="DE MENOR A MAYOR PRECIO"/>
+    <parameter name="cantidadImprimir" value="5"/>
+    <parameter name="articulo" value="shoes"/>
+    <parameter name="brand" value="PUMA"/>
+    <classes>
+      <class name="test.TestBusquedaProducto">
+        <methods>
+          <include name="enter_to_Ebay_usando_la_URL"/>
+          <include name="order_and_print_the_products_by_name_ascendant"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.TestBusquedaProducto -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
